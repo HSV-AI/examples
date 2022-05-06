@@ -88,7 +88,7 @@ st.title('SBIR Topic Generator')
 st.markdown("""
 Please forgive the performance of this demo, as the model was trained for free on Google Colab and is currently hosted for free by Streamlit using only CPU resources.
 
-
+Also - this free web instance only allows for 3 concurrent users, so if you don't mind closing this browser tab after you're done - that would be helpful!
 """)
 prompt_text = st.text_input('Topic Prompt')
 if not prompt_text:
